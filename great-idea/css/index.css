@@ -63,4 +63,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+#navBar{
+	width: 880px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+nav{
+	display:flex;
+	width: 610px;
+	justify-content: space-between;
+}
+
+nav a{
+	text-decoration: none;
+	color:grey;
+}
+
+#eyeCatcher{
+	width:880px;
+	display:flex;
+	justify-content: flex-end;
+}
+
+#slogan{
+	font-size: 90px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.button{
+	border: 1.5px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	padding: 10px 55px;
+	text-decoration: none;
+	color: black;
+}
+
+#content{
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	width:883px;
+	margin-top:50px;
+	margin-bottom: 50px
+}
+
+#first{
+	width:883px;
+	display: flex;
+	margin-top:50px;
+	margin-bottom: 45px;
+}
+
+.featurescontent, .aboutcontent{
+	width:50%;
+}
+
+.middle-img{
+	width: 880px
+}
+
+#second{
+	width:883px;
+	display: flex;
+	justify-content: space-between;
+	margin-top:30px;
+	margin-bottom: 50px;
+}
+
+.servicescontent, .productcontent, .visioncontent{
+	width:32%;
+}
+
+address{
+	display: flex;
+	flex-direction: column;
+}
+
+.address{
+	width:200px;
+}
+
+.number{
+	width:200px;
+	margin-top:15px;
+}
+.email{
+	width:200px;
+	margin-top:15px;
+}
+
+#copyright{
+	align-self:center;
+	margin-top: 50px;
+	margin-left:370px;
+}
+
+body{	
+	margin-left:20%;
+}
