@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 
 nav{
@@ -85,14 +85,12 @@ nav a{
 }
 
 .eyeCatcher{
-	border: 3px solid red;
 	width:890px;
 	display:flex;
 	justify-content: flex-end;
 }
 
 .slogan{
-	border: 3px solid red;
 	font-size: 90px;
 	text-align: center;
 	display: flex;
@@ -115,7 +113,7 @@ nav a{
 	border-bottom: 1.5px solid black;
 	width:890px;
 	margin-top:50px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
 
 .first{
@@ -130,7 +128,7 @@ nav a{
 }
 
 .middle-img{
-	width: 890px
+	width: 890px;
 }
 
 .second{
@@ -183,7 +181,7 @@ body{
 		width:890px;
 		bottom:212px;
 }*/
-h1{
+h4{
 	font-size: 25px;
 }
 
@@ -205,13 +203,31 @@ h2{
 
 .contentS{
 	border: 2px solid black;
-	height:230px;
+	height:240px;
 	width:430px;
+	padding:25px;
+	background-color: whitesmoke;
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction: column;
 	justify-content: space-around;
-	padding:25px;
+}
+
+.contentS p{
+	margin-bottom: 15px;
+}
+
+.buttonS{
+	font-size:12px;
+	text-decoration: none;
+	color:black;
+	border: 1px solid black;
+	background-color: white;
+	width: 140px;
+	height: 35px;
+	padding:10px;
+	border-radius: 6px;
+	text-align: center;
 }
 
 .introS{
@@ -249,5 +265,5 @@ ul{
 
 ul li{
 	margin-top: 8px;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
 }
