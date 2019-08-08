@@ -190,8 +190,8 @@ h2{
 }
 
 .allContent{
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
 	width:890px;
 	height: 850px;
 	padding-top:35px;
@@ -202,7 +202,7 @@ h2{
 }
 
 .contentS{
-	border: 2px solid black;
+	border: 1.5px solid black;
 	height:240px;
 	width:430px;
 	padding:25px;
